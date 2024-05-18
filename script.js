@@ -35,13 +35,19 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typingall", {
-        strings: ["Namaskar", "Web Developer", "Editor", "Designer", "Freelancer","Photographer"],
+        strings: ["नमस्ते", "Hello guys", "ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ", "নমস্কার", "आदाब","வணக்கம்","నమస్కరం","ನಮಸ್ತೆ","राधे राधे","ନମସ୍କାର","કેમ છો"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
+        strings: ["Pre-wedding", "Wedding", "Post-Wedding", "Anniversary", "Birthday","Program & Event","Music Videos","Short Film/Teasers","Poster/Banners","Youtube"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing", {
         strings: ["Pre-wedding", "Wedding", "Post-Wedding", "Anniversary", "Birthday","Program & Event","Music Videos","Short Film/Teasers","Poster/Banners","Youtube"],
         typeSpeed: 100,
         backSpeed: 60,
